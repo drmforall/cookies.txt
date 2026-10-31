@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">cookies.txt — the o11 edition</title>
+  <desc id="desc">Black and gold banner for the local cookie exporter by o11dev.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#201a10"/><stop offset=".55" stop-color="#0b0a09"/><stop offset="1" stop-color="#151109"/></linearGradient>
+    <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#ffe9a7"/><stop offset=".55" stop-color="#e6b94e"/><stop offset="1" stop-color="#a97622"/></linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+  <rect x="12" y="12" width="1176" height="276" rx="17" fill="none" stroke="#594524" stroke-width="2"/>
+  <path d="M790 0h2L609 300h-2ZM890 0h2L709 300h-2ZM990 0h2L809 300h-2Z" fill="#6d542b" opacity=".22"/>
+  <g transform="translate(74 66)">
+    <rect width="168" height="168" rx="36" fill="#0d0c0a" stroke="#6d542b" stroke-width="3"/>
+    <path d="M119 42a21 21 0 0 0 23 23c4 37-20 69-56 69-32 0-57-25-57-57S54 20 86 20c12 0 24 4 33 12a20 20 0 0 0 0 10Z" fill="url(#gold)"/>
+    <circle cx="66" cy="58" r="7" fill="#342411"/><circle cx="100" cy="89" r="8" fill="#342411"/><circle cx="62" cy="102" r="6" fill="#342411"/>
+    <path d="M117 19h26m-13-13v26" stroke="#f8d984" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="279" y="132" fill="#f5eddd" font-family="Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-3">cookies<tspan fill="#e5b94e">.txt</tspan></text>
+  <text x="283" y="174" fill="#e5b94e" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="6">LOCAL COOKIE EXPORTER</text>
+  <path d="M283 205h535" stroke="#594524" stroke-width="2"/>
+  <text x="283" y="241" fill="#a99b7c" font-family="Arial,sans-serif" font-size="20" letter-spacing="1">NETSCAPE · JSON · HEADER STRING</text>
+  <text x="1063" y="260" text-anchor="end" fill="#e5b94e" font-family="Arial,sans-serif" font-size="23" font-weight="800">o11dev</text>
+</svg>

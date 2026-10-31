@@ -1,7 +1,7 @@
 {
   "name": "cookies.txt",
   "description": "Export cookies locally in Netscape, JSON, or header format. By o11dev.",
-  "version": "0.7.2",
+  "version": "1.0.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "cookies", "downloads"],
   "host_permissions": ["<all_urls>"],
