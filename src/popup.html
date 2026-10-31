@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>cookies.txt · o11</title>
+  <link rel="stylesheet" href="popup.css" />
+  <link rel="stylesheet" href="popup-options.css" />
+  <script src="popup.mjs" type="module" defer></script>
+  <script src="table-nowrap.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand"><img src="images/icon48.png" alt="" /><div><strong>cookies<span>.txt</span></strong><small>LOCAL COOKIE EXPORTER</small></div></div>
+    <b class="brand-mark">o11<span> / </span>dev</b>
+  </header>
+  <main>
+    <section class="site-card" aria-label="Current site"><span class="eyebrow">CURRENT SITE</span><a id="location" target="_blank" rel="noopener noreferrer">Loading current tab…</a></section>
+    <section class="actions" aria-label="Cookie actions">
+      <button id="export" class="export-btn primary"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 17v3h16v-3"/></svg>Export</button>
+      <button id="exportAs" class="export-btn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m-4-4 4 4 4-4M4 17v3h16v-3M17 5h4m-2-2v4"/></svg>Export as</button>
+      <button id="copy" class="export-btn"><span class="default-copy-text"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="7" width="12" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2"/></svg>Copy</span><span class="copied-text"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Copied</span></button>
+      <button id="exportAll" class="export-btn export-all"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M5 7l2-3h10l2 3M6 7v13h12V7M12 10v7m-3-3 3 3 3-3"/></svg>Export all cookies</button>
+    </section>
+    <section id="optionsContainer" class="option-container" aria-label="Export options">
+      <div class="option"><label for="format">FORMAT</label><select id="format" name="format"><option value="netscape" selected>Netscape</option><option value="json">JSON</option><option value="header">Header String</option></select></div>
+      <div class="option"><label for="nowrapOption">No wrap</label><input type="checkbox" id="nowrapOption" name="nowrapOption" checked /></div>
+    </section>
+    <section class="preview" aria-label="Cookie preview"><div class="preview-heading"><span class="eyebrow">COOKIE PREVIEW</span><span>LOCAL ONLY</span></div><div class="table-container"><table id="netscapeTable" class="netscape-table nowrap"><thead><tr><th>Domain</th><th>Include Subdomains</th><th>Path</th><th>Secure</th><th>Expiry</th><th>Name</th><th>Value</th></tr></thead><tbody></tbody></table></div></section>
+  </main>
+  <footer><span>o11dev</span></footer>
+</body>
+</html>

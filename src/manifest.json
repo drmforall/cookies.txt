@@ -1,0 +1,28 @@
+{
+  "name": "cookies.txt",
+  "description": "Export cookies locally in Netscape, JSON, or header format. By o11dev.",
+  "version": "0.7.2",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "cookies", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icon16.png",
+      "32": "/images/icon32.png",
+      "48": "/images/icon48.png",
+      "128": "/images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icon16.png",
+    "32": "/images/icon32.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
+  },
+  "incognito": "split",
+  "background": {
+    "service_worker": "background.mjs",
+    "type": "module"
+  }
+}

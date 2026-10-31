@@ -1,0 +1,11 @@
+{
+  "incognito": "spanning",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "cookies.txt@o11dev"
+    }
+  }
+}
